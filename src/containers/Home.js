@@ -4,8 +4,10 @@ import React from 'react';
 class Home extends React.Component {
   render(){
     return(
-      <div>
-        <p>yoyo</p>
+      <div className="container-fluid" >
+        <div className="row">
+          <button className="btn btn-default">yoyoyo</button>
+        </div>
       </div>
     )
   }

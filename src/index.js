@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Route, Router, browserHistory } from 'react-router'; 
-import { Provider } from 'react-redux';
 
 import App from './components/App';
 import Home from './containers/Home';

@@ -20,7 +20,6 @@ var dependencies = [
   'react',
   'react-dom',
   'react-router',
-  'redux',
   'underscore'
 ];
 
@@ -103,6 +102,7 @@ gulp.task('browserify-watch', ['browserify-vendor'], function() {
 /*
  |--------------------------------------------------------------------------
  | Compile LESS stylesheets.
+ 
  |--------------------------------------------------------------------------
  */
 gulp.task('styles', function() {
