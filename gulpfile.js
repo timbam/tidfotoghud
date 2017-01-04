@@ -60,7 +60,7 @@ gulp.task('browserify-vendor', function() {
 gulp.task('browserify', ['browserify-vendor'], function() {
   return browserify({ entries: 'src/index.js', debug: true })
     .external(dependencies)
-    .transform(babelify, { presets: ['react','es2017','stage-1'] })
+    .transform(babelify, { presets: ['react','es2015','stage-1'] })
     .bundle()
     .pipe(source('bundle.js'))
     .pipe(buffer())
