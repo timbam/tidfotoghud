@@ -11,9 +11,7 @@ class Home extends React.Component {
             LalalalaLalalalaLalalalaLalalala
             LalalalaLalalalaLalalalaLalalala
             LalalalaLalalalaLalalalaLalalala
-
             </p>
-            
           </div>
     )
   }
