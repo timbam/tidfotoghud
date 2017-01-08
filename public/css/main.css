@@ -6673,6 +6673,9 @@ button.close {
     display: none !important;
   }
 }
+.navbar {
+  margin-bottom: 0;
+}
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
@@ -6681,20 +6684,32 @@ button.close {
 .navbar .navbar-collapse {
   text-align: center;
   font-size: 1.25em;
+  font-family: 'Hind Guntur', sans-serif;
 }
-body {
-  background: url("/pictures/background centered.jpg");
+html,
+body,
+.myApp,
+.AppClass {
+  height: 100%;
+}
+.backgroundPicture {
+  height: 100%;
+  background-image: url('/pictures/forest.jpg');
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50% 20%;
-  z-index: -1;
-  background-color: #1d1d1d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 .textDiv {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(245, 245, 220, 0.5);
   width: 600px;
-  height: 600px;
+  height: 400px;
   margin: 10% auto auto auto;
   text-align: center;
-  padding-bottom: 100px;
+  padding-top: 200px;
   font-size: 1.2em;
+}
+p {
+  color: black;
 }

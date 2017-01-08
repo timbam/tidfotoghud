@@ -1,16 +1,16 @@
 import React from 'react';
 
-class Kontakt extends React.Component {
+class Behandlinger extends React.Component {
   render(){
-    return( 
+    return(
       <div className="backgroundPicture">
         <div className="textDiv">
           <p>
-            Dette er kontakt
+            Behandlinger:
           </p>
         </div>
       </div>
     );
   }
 }
-export default Kontakt;
+export default Behandlinger;
