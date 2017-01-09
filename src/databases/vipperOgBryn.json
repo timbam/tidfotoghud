@@ -1,0 +1,35 @@
+{
+  "title":"Vipper og bryn",
+  "description":"Det er pent, naturlig og ikke minst praktisk med å forme og farge bryn og vipper. Vi bruker hudvennlige fargestoffer som er tilpasset din hudtype og hårfarge. Er du usikker på hvilke form brynene skal ha kan vi hjelpe deg med det.",
+  "ps":"Hvis du farger, former bryn og vipper i forbindelse med en annen ansiktsbehandling får du 30% på denne behandlingen.",
+  "array":[
+  {
+    "title": "Forming av bryn med voks",
+    "price":210
+  },
+  {
+    "title": "Forming av bryn med pinsett",
+    "price":310
+  },
+  {
+    "title": "Farge bryn",
+    "price":195
+  },
+  {
+    "title": "Form og farge av bryn",
+    "price":350
+  },
+  {
+    "title": "Farge av vipper",
+    "price":265
+  },
+  {
+    "title": "Farge vipper og bryn",
+    "price":395
+  },
+  {
+    "title": "Form, farge bryn og vipper",
+    "price":550
+  }
+]
+}

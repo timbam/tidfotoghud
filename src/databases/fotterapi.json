@@ -1,0 +1,42 @@
+{
+  "title": "Fotterapi",
+  "description":"Fotterapi er en helsefaglig behandling som utføres av en autorisert fotterapeut. En offentlig godkjent fotterapeut har utdanning og spesialisert seg innenfor lidelser/ plager som er knyttet til foten.  Fotterapi er en behandling som blir tilrettelagt ut ifra hvilke problemer, smerter og sykdommer (relatert til føtter) du opplever. Vi ser på gangmønster, gir skoveileding, utfører symptombehandling og gir massasje Det er også en forebyggende behandling som gir økt velvære.",
+  "array":[
+  {
+    "title":"Standard Fotterapi, ca 1t",
+    "price":690
+  },
+  {
+    "title":"Medisinsk fotterapi, ca 1-1,5t",
+    "price":740
+  },
+  {
+    "title":"Spangebehandling, stk",
+    "price":200
+  },
+  {
+    "title":"Vortebehandling, stk",
+    "price":240
+  },
+  {
+    "title":"Vortebehandling, kur (6stk)",
+    "price":1140
+  },
+  {
+    "title":"Neglebehandling ",
+    "price":420
+  },
+  {
+    "title":"Tornebehandling, 30 min",
+    "price":395
+  },
+  {
+    "title":"Fotterapi/m shellac",
+    "price":1150
+  },
+  {
+    "title":"Fotterapi/m fransk shellac",
+    "price":1200
+  }
+]
+}

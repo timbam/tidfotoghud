@@ -1,0 +1,94 @@
+{
+  "title":"Hårfjerning med voks",
+  "description":"Profesjonell fjerning av hår med voks, har en svært effektiv og skånsom metode. Vil etter gjentatte behandlinger gjøre hårveksten svakere og mykere. Vi anbefaler å gjenta behandlingen etter 4 uker. Metoden kan brukes på hele kroppen, bryn, ansikt, armer bein, bikinikant og brazillian.",
+  "array":[
+    {
+      "title":"Brazilian",
+      "price":598
+    },
+    {
+      "title":"Brazillian ikke bak",
+      "price":498
+    },
+    {
+      "title":"Brazillian, legger og lår",
+      "price":1098
+    },
+    {
+      "title":"Bikinikant",
+      "price":345
+    },
+    {
+      "title":"Bikinikant, legger og lår",
+      "price":850
+    },
+    {
+      "title":"Bikinikant og lår",
+      "price":610
+    },
+    {
+      "title":"Ansikt",
+      "price":450
+    },
+    {
+      "title":"Hake",
+      "price":250
+    },
+    {
+      "title":"Overleppe",
+      "price":250
+    },
+    {
+      "title":"Overleppe og hake",
+      "price":350
+    },
+    {
+      "title":"Nesebor",
+      "price":190
+    },
+    {
+      "title":"Armhuler",
+      "price":275
+    },
+    {
+      "title":"Armer",
+      "price":375
+    },
+    {
+      "title":"Armhuler og armer",
+      "price":500
+    },
+    {
+      "title":"Lår",
+      "price":350
+    },
+    {
+      "title":"Legger",
+      "price":350
+    },
+    {
+      "title":"Legger og lår",
+      "price":550
+    },
+    {
+      "title":"Rygg",
+      "price":495
+    },
+    {
+      "title":"Mage",
+      "price":350
+    },
+    {
+      "title":"Brystkasse",
+      "price":350
+    },
+    {
+      "title":"Mage og brystkasse",
+      "price":550
+    },
+    {
+      "title":"Mage, brystkasse og rygg",
+      "price":995
+    }
+  ]
+}

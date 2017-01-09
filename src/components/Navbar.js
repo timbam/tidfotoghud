@@ -9,9 +9,13 @@ class Navbar extends React.Component {
 
     this.state = {shown: false}
     this.onToggleClick = this.onToggleClick.bind(this);
+    this.onHideToggle = this.onHideToggle.bind(this);
   }
   onToggleClick(){
-      this.setState({shown: !this.state.shown})
+      this.setState({shown: !this.state.shown});
+  }
+  onHideToggle() {
+    this.setState({shown: false});
   }
 
 
@@ -36,14 +40,12 @@ class Navbar extends React.Component {
 
         <div className={classesCollapse} id="bs-navbar-collapse">
           <ul className="nav navbar-nav">
-            <li><Link to="/" >Hjem</Link></li>
-            <li><Link to="/Om" >Om oss</Link></li>
-            <li><Link to="/Behandlinger" >Behandlinger</Link></li>
-            <li><Link to="/Kontakt">Kontakt</Link></li>
+            <li><Link to="/"              onClick={this.onHideToggle}>Hjem</Link></li>
+            <li><Link to="/Om"            onClick={this.onHideToggle}>Om oss</Link></li>
+            <li><Link to="/Behandlinger"  onClick={this.onHideToggle}>Behandlinger</Link></li>
+            <li><Link to="/Kontakt"       onClick={this.onHideToggle}>Kontakt</Link></li>
           </ul>
-
         </div>
-
       </div>
     </nav>
       )

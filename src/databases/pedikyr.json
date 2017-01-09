@@ -1,0 +1,34 @@
+{
+  "title":"Pedikyr",
+  "description":"Lett Fotpleie inneholder fotbad, sliping av hard og tørr hud, fotskrubb, stell av neglebånd og negler. Her kan du velge å få shellac i pedikyren eller bare shellac. Shellac er en lakk som herdes i UV lys og holder i mange uker på føttene. Den har en høy glans. Lakken kan fjernes i salongen på ca 15 min uten skade på dine egne negler..",
+  "array":[
+  {
+    "title":"Pedikyr",
+    "price":550
+  },
+  {
+    "title":"Pedikyr med shellac - Farge",
+    "price":1000
+  },
+  {
+    "title":"Pedikyr med shellac - Fransk",
+    "price":1100
+  },
+  {
+    "title":"Shellac uten pedikyr - Farge",
+    "price":590
+  },
+  {
+    "title":"Shellac uten pedikyr - Fransk",
+    "price":690
+  },
+  {
+    "title":"Fjerning av shellac tatt i salong",
+    "price":350
+  },
+  {
+    "title":"Fjerning av shellac tatt hos andre",
+    "price":450
+  }
+]
+}

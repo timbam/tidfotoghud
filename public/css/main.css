@@ -6686,6 +6686,55 @@ button.close {
   font-size: 1.25em;
   font-family: 'Hind Guntur', sans-serif;
 }
+.hideMe {
+  display: none;
+}
+.hideButton {
+  float: right;
+  background-color: transparent;
+}
+.hideButton:hover,
+.hideButton:focus,
+.hideButton:active {
+  background-color: transparent;
+}
+.componentBehandling {
+  margin: 10px 5px 5px 5px;
+  font-family: 'Hind Guntur', sans-serif;
+}
+h2 {
+  display: inline;
+}
+h3.behandling {
+  display: inline;
+}
+.behandlingsPris {
+  float: right;
+}
+.renderBehandlingerClasses {
+  margin-top: 1em;
+}
+.mappedList {
+  -webkit-columns: 2 200px;
+     -moz-columns: 2 200px;
+          columns: 2 200px;
+  -webkit-column-gap: 1rem;
+     -moz-column-gap: 1rem;
+          column-gap: 1rem;
+}
+.textDivBehandlinger {
+  position: relative;
+  background-color: rgba(245, 245, 220, 0.7);
+  width: 600px;
+  height: auto;
+  margin: 10% auto auto auto;
+  font-size: 1.2em;
+}
+.haarfjerning {
+  -webkit-columns: 2;
+     -moz-columns: 2;
+          columns: 2;
+}
 html,
 body,
 .myApp,
@@ -6693,8 +6742,9 @@ body,
   height: 100%;
 }
 .backgroundPicture {
+  position: relative;
   height: 100%;
-  background-image: url('/pictures/forest.jpg');
+  background-image: url('/pictures/forest-960_720.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   display: -webkit-box;
@@ -6702,14 +6752,14 @@ body,
   display: flex;
 }
 .textDiv {
-  background-color: rgba(245, 245, 220, 0.5);
+  background-color: rgba(245, 245, 220, 0.7);
   width: 600px;
-  height: 400px;
+  height: 100%;
   margin: 10% auto auto auto;
-  text-align: center;
-  padding-top: 200px;
   font-size: 1.2em;
 }
-p {
+p,
+h2,
+h3 {
   color: black;
 }

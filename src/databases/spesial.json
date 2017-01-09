@@ -1,0 +1,24 @@
+{
+  "title":"Spesielle pakker",
+  "array":[
+{
+  "title":"TID Topp til Tå - Med pedikyr",
+  "description":"Gi deg selv eller noen en gave i en travel hverdag med vår topp til tå behandling. Her er velvære og resultat i fokus. En rygg/nakke massasje som løser opp i en trøtt rygg. En ansiktsbehanling (Environ fresh peel) som gir ansiktet en ny frisk glød ved bruk av melkesyre. Det hele avsluttes med pedikyr eller fotterapi som gleder dine føtter. En behandling for hvor man glemmer tid og sted, og som gir påfyll av energi.",
+  "price":1800
+},
+{
+  "title":"TID Topp til Tå - Med fotterapi",
+  "description":"Gi deg selv eller noen en gave i en travel hverdag med vår topp til tå behandling. Her er velvære og resultat i fokus. En rygg/nakke massasje som løser opp i en trøtt rygg. En ansiktsbehanling (Environ fresh peel) som gir ansiktet en ny frisk glød ved bruk av melkesyre. Det hele avsluttes med pedikyr eller fotterapi som gleder dine føtter. En behandling for hvor man glemmer tid og sted, og som gir påfyll av energi.",
+  "price":1950
+},
+{
+  "title":"TID Signatur",
+  "description": "Dette er behandlingen man ser og merker. Her går kompetanse og skjønnhet hånd i hånd. En ansiktsbehandling som metter huden med antioksidanter og fuktighet. En perfekt behandling når huden er tørr, gusten og har behov for det lille ekstra. Ingen rødheter, mye fuktighet og frisk ansiktsfarge. Farge/ form av vipper og bryn gir ansiktet den lille ekstra markeringen for topp resultat. For prikken over i`en gir vi deg silkemyke hender med shellac. En lakk som holder 2-3 uker. Føl deg ny og fresh for alle festligheter som skal komme.",
+  "price":2100
+},
+{
+  "title":"TID Skreddersydd",
+  "description":"Har du ønske om flere behandlinger. Vi setter gjerne sammen et skreddersydd behandlingsprogram til deg etter ditt behov. "
+}
+]
+}

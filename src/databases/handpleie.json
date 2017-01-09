@@ -1,0 +1,30 @@
+{
+  "title":"Håndpleie",
+  "description":"Manikyr inneholder stell av neglebånd, filing/forming av negler, peeling og avsluttende krem. Du kan velge å få shellac med manikyr eller få det uten manikyrbehandling. Shellac er en unik lakk som herdes i UV lys og har en holdbarhet i ca. 2-3 uker. Den har høy glans uten riper og avskalling. Lakken kan fjernes på ca. 15 min uten skade på egen negl.",
+  "array":[
+  {
+    "title":"Manikyr",
+    "price":550
+  },
+  {
+    "title":"Manikyr med shellac",
+    "price":950
+  },
+  {
+    "title":"Shellac",
+    "price":590
+  },
+  {
+    "title":"Shellac med fransk",
+    "price":690
+  },
+  {
+    "title":"Fjerning av shellac tatt i salongen",
+    "price":250
+  },
+  {
+    "title":"Fjerning av shellac tatt hos andre",
+    "price":350
+  }
+]
+}

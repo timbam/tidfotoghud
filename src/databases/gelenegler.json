@@ -1,0 +1,50 @@
+{
+  "title":"Gelenegler",
+  "description":"Velpleide hender og negler er utrolig fint. Gelenegler kan være tynne, lette, vakre og naturlige negler med en fin glans. Denne geleen kan brukes til å forsterke egne negler eller forlenge dem.",
+  "array":[
+  {
+    "title":"Gelenegler m/forlenging - Naturlig",
+    "price":950
+  },
+  {
+    "title":"Gelenegler m/forlenging - Fransk",
+    "price":1250
+  },
+  {
+    "title":"Gelenegler m/forlenging - Farge",
+    "price":1150
+  },
+  {
+    "title":"Forsterkning med gele - Naturlig",
+    "price":800
+  },
+  {
+    "title":"Forsterkning med gele - Fransk",
+    "price":1100
+  },
+  {
+    "title":"Forsterkning med gele - Farge",
+    "price":950
+  },
+  {
+    "title":"Etterfyll med gele - Naturlig",
+    "price":750
+  },
+  {
+    "title":"Etterfyll med gele - Fransk",
+    "price":950
+  },
+  {
+    "title":"Etterfyll med gele - Farge",
+    "price":800
+  },
+  {
+    "title":"Fjerning av gelenegler tatt i salong",
+    "price":390
+  },
+  {
+    "title":"Fjerning av gelenegler tatt hos andre",
+    "price":450
+  }
+]
+}

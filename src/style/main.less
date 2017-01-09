@@ -1,14 +1,15 @@
 @import '../../node_modules/bootstrap/less/bootstrap';
 @import './navbar';
-
+@import './behandlinger';
 
 html, body, .myApp, .AppClass {
   height: 100%;
 }
 
 .backgroundPicture {
+  position: relative;
   height: 100%;
-  background-image: url('/pictures/forest.jpg');
+  background-image: url('/pictures/forest-960_720.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   display: -webkit-flex;
@@ -16,15 +17,13 @@ html, body, .myApp, .AppClass {
 }
 
 .textDiv {
-  background-color: rgba(245, 245, 220, 0.5);
+  background-color: rgba(245, 245, 220, 0.7);
   width: 600px;
-  height: 400px;
+  height: 100%;
   margin: 10% auto auto auto;
-  text-align: center;
-  padding-top: 200px;
   font-size: 1.2em;
 }
-p {
+p, h2, h3 {
   color: black;
 }
 

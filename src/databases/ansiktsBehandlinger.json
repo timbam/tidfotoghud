@@ -1,0 +1,34 @@
+{
+  "title":"Ansiktsbehandlinger",
+  "array":
+  [
+    { "title": "Environ fresh peeling",
+      "description": "En rask og effektiv lunsj behandling som varer i ca 30 min. Huden blir strålende frisk og klar. En askepottbehandling.",
+      "price": 890
+    },
+    { "title": "Environ TCA light peeling",
+      "description": "En behandling for deg med normal og problemfri hud. Svært effektiv behandling som setter i gang cellefornyelsen ved bruk av eddik syre som gir en frisk glød. Denne er perfekt for de som prøver environ for første gang.",
+      "price": 1290
+    },
+    { "title": "Environ TCA Pigment",
+      "description": "En behandling justert for mørke pigmentforandringer, denne behandlingen er dyptgående og gir en jevner hudtone. Bør gjøres flere ganger for å få best resultat.",
+      "price": 1290
+    },
+    { "title": "Environ Anti Ages hudforbedring",
+      "description": "Behandling som er tilpasset i styrke og effekt utfra din huds ønske og behov. Den øker cellefornyelsen som bedrer elastisiteten, strammer opp huden og gir huden et friskere preg. Anbefalt å kjøpe pakke med 6 behandlinger på 6 uker.",
+      "price": 1590
+    },
+    { "title": "Environ Acne behandling",
+      "description": "En behandling for problemhud, denne er dyptgående og behandler acne (kviser) på en effektiv og skånsom måte. Bør gjentas flere ganger for optimal virkning. Anbefaler kur.",
+      "price": 1590
+    },
+    { "title": "Bioline klassisk",
+      "description": "En velvære behandling tilpasset alle hudtyper. Denne er rensende, nærende og avslappende.",
+      "price": 890
+    },
+    { "title": "Biolline De-Ox",
+      "description": "Denne behandlingen er en vitaminbombe tilpasset alle hudtyper som krever ekstra påfyll og beskyttelse av antioksidanter. Den forbedrer elastiteten og fuktigheten i huden, roer ned rødheter og gir en ekstra fin glød.",
+      "price": 1390
+    }
+  ]
+}
