@@ -1,6 +1,8 @@
 @import '../../node_modules/bootstrap/less/bootstrap';
 @import './navbar';
 @import './behandlinger';
+@import './kontakt';
+@import './home';
 
 html, body, .myApp, .AppClass {
   height: 100%;
@@ -8,7 +10,8 @@ html, body, .myApp, .AppClass {
 
 .backgroundPicture {
   position: relative;
-  height: 100%;
+  min-height: 100%;
+  height:auto;
   background-image: url('/pictures/forest-960_720.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -16,52 +19,24 @@ html, body, .myApp, .AppClass {
   display: flex;
 }
 
-.textDiv {
-  background-color: rgba(245, 245, 220, 0.7);
-  width: 600px;
-  height: 100%;
-  margin: 10% auto auto auto;
-  font-size: 1.2em;
-}
+// .textDiv {
+//   background-color: rgba(245, 245, 220, 0.7);
+//   width: 600px;
+//   height: 100%;
+//   margin: 10% auto auto auto;
+//   font-size: 1.2em;
+// }
 p, h2, h3 {
   color: black;
 }
 
 
-
-
-
-
-
-
-// Styling background img trixx
-// img.bg {
-//   /* Set rules to fill background */
-//   min-height: 100%;
-//   min-width: 960px;
-  
-//   /* Set up proportionate scaling */
-//   width: 100%;
-//   height: auto;
-  
-//   /* Set up positioning */
-//   position: fixed;
-//   margin-left: auto;
-//   margin-right: auto;
-//   z-index: -1;
-// }
-
-// @media screen and (max-width: 960px) { /* Specific to this particular image */
-//   img.bg {
-//     left: 50%;
-//     margin-left: -512px;   /* 50% */
-//   }
-// }
-
-// body {
-//   background: url("/pictures/forest.jpg");
-//   background-repeat: no-repeat;
-//   background-position: 50% 20%;
-//   z-index: -1;
-//   background-color: rgb(29, 29, 29);
-// }
+.textDiv {
+  font-family: 'Hind Guntur', sans-serif;
+  position: relative;
+  background-color: rgba(245, 245, 220, 0.7);
+  width: 600px;
+  height: auto;
+  margin: 10% auto auto auto;
+  font-size: 1.2em;
+}

@@ -76,10 +76,10 @@ class Behandlinger extends React.Component {
           jsonBehandlinger={haarfjerning.array} 
           description={haarfjerning.description}
           columns={true}
-          ps="Gode tips: 
-          - hårene må være mellom 0,5-1 cm, ikke lenger eller kortere. 
-          - Peel huden 2 ganger i uken for å unngå inngrodde hår. 
-          - Vent i ca 48 timer med soling og solarium og trening. 
+          ps="Gode tips: _NewLine_
+          - hårene må være mellom 0,5-1 cm, ikke lenger eller kortere. _NewLine_
+          - Peel huden 2 ganger i uken for å unngå inngrodde hår. _NewLine_
+          - Vent i ca 48 timer med soling og solarium og trening. _NewLine_
           - Vent 24 timer med dusj og badstu."
           /> : ''}
           {allHidden || !this.state.hidevipperOgBryn ? <SubComponentBehandlinger 

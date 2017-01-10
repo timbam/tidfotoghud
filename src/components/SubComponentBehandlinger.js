@@ -20,20 +20,31 @@ export default (props) => {
   var mappedList = classNames({
     'mappedList': props.columns
   })
+  var mainDescription = classNames({
+    'hideMe' : props.hideMe,
+    'mainDescription':true
+  })
   return(
       <div className="componentBehandling" >
         <h2>
           {props.title}
         </h2>
         <button className="btn btn-default hideButton" onClick={props.toggleHideMe.bind(this)} ><span className={props.hideMe ? "glyphicon glyphicon-chevron-down" : "glyphicon glyphicon-chevron-up"}></span></button>
-        <p className={renderBehandlingerClasses} >
+        <p className={mainDescription} >
           {props.description}
         </p>
         <div className={mappedList} >
          {props.jsonBehandlinger.map(renderBehandlinger)}
         </div>
         <p className={renderBehandlingerClasses}>
-          {props.ps}
+          {props.ps ? props.ps.split('_NewLine_').map(function(item, index) {
+            return(
+              <span key={index} >
+                {item}
+                <br/>
+              </span>
+            );
+          }) : ''}
         </p>
       </div>
   )

@@ -6712,12 +6712,12 @@ h3.behandling {
   float: right;
 }
 .renderBehandlingerClasses {
-  margin-top: 1em;
+  margin-top: 0.6em;
 }
 .mappedList {
-  -webkit-columns: 2 200px;
-     -moz-columns: 2 200px;
-          columns: 2 200px;
+  -webkit-columns: 2 290px;
+     -moz-columns: 2 290px;
+          columns: 2 290px;
   -webkit-column-gap: 1rem;
      -moz-column-gap: 1rem;
           column-gap: 1rem;
@@ -6730,10 +6730,64 @@ h3.behandling {
   margin: 10% auto auto auto;
   font-size: 1.2em;
 }
-.haarfjerning {
-  -webkit-columns: 2;
-     -moz-columns: 2;
-          columns: 2;
+.mainDescription {
+  margin-bottom: 1em;
+}
+@media screen and (max-width: 400px) {
+  .renderBehandlingerClasses h3 {
+    font-size: 1em;
+    font-weight: bold;
+  }
+  .renderBehandlingerClasses p {
+    font-size: 0.9em;
+  }
+  .componentBehandling h2 {
+    font-size: 1.5em;
+  }
+}
+.kontakt h3 {
+  font-weight: 600;
+  margin-top: 0.5em;
+}
+.contactTitle {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+.home {
+  position: relative;
+  min-height: 100%;
+  height: auto;
+  background-color: #1d1d1d;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.homeSubclass h1 {
+  font-family: 'Hind Guntur', sans-serif;
+  color: #f5f5f5;
+  font-size: 13em;
+  font-weight: 300;
+}
+.homeSubclass h3 {
+  font-family: 'Hind Guntur', sans-serif;
+  color: #f5f5f5;
+  font-size: 5em;
+}
+.homeSubclass {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15%;
+  text-align: center;
+}
+@media screen and (max-width: 400px) {
+  .homeSubclass h1 {
+    font-size: 9em;
+  }
+  .homeSubclass h3 {
+    font-size: 3.5em;
+  }
 }
 html,
 body,
@@ -6743,7 +6797,8 @@ body,
 }
 .backgroundPicture {
   position: relative;
-  height: 100%;
+  min-height: 100%;
+  height: auto;
   background-image: url('/pictures/forest-960_720.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -6751,15 +6806,17 @@ body,
   display: -ms-flexbox;
   display: flex;
 }
-.textDiv {
-  background-color: rgba(245, 245, 220, 0.7);
-  width: 600px;
-  height: 100%;
-  margin: 10% auto auto auto;
-  font-size: 1.2em;
-}
 p,
 h2,
 h3 {
   color: black;
+}
+.textDiv {
+  font-family: 'Hind Guntur', sans-serif;
+  position: relative;
+  background-color: rgba(245, 245, 220, 0.7);
+  width: 600px;
+  height: auto;
+  margin: 10% auto auto auto;
+  font-size: 1.2em;
 }

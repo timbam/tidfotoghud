@@ -1,7 +1,7 @@
 {
   "name": "tidfotoghud",
   "version": "1.0.0",
-  "description": "Tid fot og hud-terapeut",
+  "description": "TID Hud- og Fotterapeut",
   "main": "index.js",
   "repository": {
     "type": "git",
