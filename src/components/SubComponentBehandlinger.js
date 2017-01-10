@@ -25,11 +25,11 @@ export default (props) => {
     'mainDescription':true
   })
   return(
-      <div className="componentBehandling" >
+      <div onClick={props.toggleHideMe.bind(this)} className="componentBehandling" >
         <h2>
           {props.title}
         </h2>
-        <button className="btn btn-default hideButton" onClick={props.toggleHideMe.bind(this)} ><span className={props.hideMe ? "glyphicon glyphicon-chevron-down" : "glyphicon glyphicon-chevron-up"}></span></button>
+        <button className="btn btn-default hideButton"><span className={props.hideMe ? "glyphicon glyphicon-chevron-down" : "glyphicon glyphicon-chevron-up"}></span></button>
         <p className={mainDescription} >
           {props.description}
         </p>

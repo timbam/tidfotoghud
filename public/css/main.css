@@ -6686,6 +6686,17 @@ button.close {
   font-size: 1.25em;
   font-family: 'Hind Guntur', sans-serif;
 }
+.backgroundPictureBehandlinger {
+  position: relative;
+  min-height: 720px;
+  height: auto;
+  background-image: url('/pictures/forest-960_720.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 .hideMe {
   display: none;
 }
