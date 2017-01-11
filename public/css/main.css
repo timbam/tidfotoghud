@@ -6686,17 +6686,6 @@ button.close {
   font-size: 1.25em;
   font-family: 'Hind Guntur', sans-serif;
 }
-.backgroundPictureBehandlinger {
-  position: relative;
-  min-height: 100%;
-  height: auto;
-  background-image: url('/pictures/forest-960_720.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
 .hideMe {
   display: none;
 }
@@ -6743,6 +6732,7 @@ h3.behandling {
   position: relative;
   background-color: rgba(29, 29, 29, 0.9);
   width: 600px;
+  min-height: 390.2px;
   height: auto;
   margin: 10% auto auto auto;
   font-size: 1.2em;
@@ -6764,11 +6754,15 @@ h3.behandling {
 }
 .kontakt h3 {
   font-weight: 600;
-  margin-top: 0.5em;
+  margin-top: 110px;
+  text-align: center;
 }
 .contactTitle {
   font-weight: 600;
   font-size: 1.2em;
+}
+.kontakt p {
+  text-align: center;
 }
 .home {
   position: relative;
@@ -6807,7 +6801,7 @@ h3.behandling {
   .homeSubclass .tidtitle {
     font-size: 10em;
     margin-bottom: -20px;
-    margin-top: -20px;
+    margin-top: 35px;
   }
   .homeSubclass h3 {
     font-size: 2em;
