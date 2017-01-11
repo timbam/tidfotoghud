@@ -6774,7 +6774,7 @@ h3.behandling {
   position: relative;
   min-height: 100%;
   height: auto;
-  background-image: url('/pictures/forest-960_720.jpg');
+  background-image: url('/pictures/forest-2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   display: -webkit-box;
@@ -6791,7 +6791,7 @@ h3.behandling {
 .homeSubclass h3 {
   font-family: 'Raleway', sans-serif;
   color: #f5f5f5;
-  font-size: 5em;
+  font-size: 3em;
   margin-top: 0;
 }
 .homeSubclass {
@@ -6810,15 +6810,15 @@ h3.behandling {
     margin-top: -20px;
   }
   .homeSubclass h3 {
-    font-size: 3em;
+    font-size: 2em;
   }
 }
 @media screen and (max-width: 550px) {
   .homeSubclass .tidtitle {
-    font-size: 6em;
+    font-size: 7em;
   }
   .homeSubclass h3 {
-    font-size: 1.9em;
+    font-size: 1em;
   }
 }
 html,
@@ -6829,9 +6829,9 @@ body,
 }
 .backgroundPicture {
   position: relative;
-  min-height: 100%;
+  min-height: 900px;
   height: auto;
-  background-image: url('/pictures/forest-960_720.jpg');
+  background-image: url('/pictures/forest-2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   display: -webkit-box;

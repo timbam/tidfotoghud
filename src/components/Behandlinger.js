@@ -61,7 +61,7 @@ class Behandlinger extends React.Component {
     var allHidden = this.state.hideAnsiktsBehandlinger && this.state.hideHaarfjerning && this.state.hidevipperOgBryn && this.state.hidePedikyr
     && this.state.hideHandPleie && this.state.hideGelenegler && this.state.hideFotterapi && this.state.hideMassasje && this.state.hideSpesial;
     return(
-      <div className="backgroundPictureBehandlinger">
+      <div className="backgroundPicture">
         <div className="textDivBehandlinger">
           {allHidden || !this.state.hideAnsiktsBehandlinger ? <SubComponentBehandlinger 
           title={ansiktsBehandlingerjson.title}
