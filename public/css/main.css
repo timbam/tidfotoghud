@@ -6835,6 +6835,11 @@ a:active {
   margin-top: 50px;
   margin-bottom: 25px;
 }
+@media screen and (max-width: 450px) {
+  .omOss {
+    margin-top: 20px;
+  }
+}
 html,
 body,
 .myApp,
