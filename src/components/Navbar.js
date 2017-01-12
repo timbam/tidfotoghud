@@ -41,7 +41,7 @@ class Navbar extends React.Component {
         <div className={classesCollapse} id="bs-navbar-collapse">
           <ul className="nav navbar-nav">
             <li><Link to="/"              onClick={this.onHideToggle}>Hjem</Link></li>
-            <li><Link to="/Om"            onClick={this.onHideToggle}>Om oss</Link></li>
+            <li><Link to="/Om"            onClick={this.onHideToggle}>Om Oss</Link></li>
             <li><Link to="/Behandlinger"  onClick={this.onHideToggle}>Behandlinger</Link></li>
             <li><Link to="/Kontakt"       onClick={this.onHideToggle}>Kontakt</Link></li>
           </ul>

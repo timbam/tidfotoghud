@@ -6,13 +6,13 @@ class Kontakt extends React.Component {
       <div className="backgroundPicture">
         <div className="textDiv kontakt">
           <h3>
-          Kontakt:
+          Kontakt
           </h3>
           <p>
             <span className="contactTitle">Adresse:</span> Østre skostredet 10, Bergen <br/>
             <span className="contactTitle">e-mail:</span> <a href="mailto:tid.bergen@gmail.com"> tid.bergen@gmail.com </a><br/>
             <span className="contactTitle">Facebook:</span><a href="https://www.facebook.com/TID.Bergen/?fref=ts"> tid.bergen</a><br/>
-            <span className="contactTitle">Instagram:</span> tid.bergen <br/>
+            <span className="contactTitle">Instagram:</span><a href="https://www.instagram.com/tid_bergen/"> tid_bergen </a><br/>
           </p>
         </div>
       </div>
