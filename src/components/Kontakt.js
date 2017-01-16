@@ -14,6 +14,15 @@ class Kontakt extends React.Component {
             <span className="contactTitle">Facebook:</span><a href="https://www.facebook.com/TID.Bergen/?fref=ts"> tid.bergen</a><br/>
             <span className="contactTitle">Instagram:</span><a href="https://www.instagram.com/tid_bergen/"> tid_bergen </a><br/>
           </p>
+          <h3>
+            Åpningstider
+          </h3>
+          <p>
+            <span className="days">man-ons, fre:</span>  10-17 <br/>
+            <span className="days">tors:</span>  10-19 <br/>
+            <span className="days">lør:</span>  11-15 <br/>
+            <span className="days">søn:</span>  Stengt
+          </p>
         </div>
       </div>
     );
