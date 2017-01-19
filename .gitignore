@@ -1,4 +1,6 @@
 /node_modules
 /Informasjon
-bundle.js
+/public/js/bundle.js
+/public/js/vendor.bundle.js
+/public/js/bundje.js.map
 npm-debug.log

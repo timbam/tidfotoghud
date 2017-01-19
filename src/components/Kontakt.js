@@ -11,8 +11,9 @@ class Kontakt extends React.Component {
           <p>
             <span className="contactTitle">Adresse:</span> Østre skostredet 10, Bergen <br/>
             <span className="contactTitle">e-mail:</span> <a href="mailto:tid.bergen@gmail.com"> tid.bergen@gmail.com </a><br/>
-            <span className="contactTitle">Facebook:</span><a href="https://www.facebook.com/TID.Bergen/?fref=ts"> tid.bergen</a><br/>
             <span className="contactTitle">Instagram:</span><a href="https://www.instagram.com/tid_bergen/"> tid_bergen </a><br/>
+            <span className="contactTitle">Facebook:</span><a href="https://www.facebook.com/TID.Bergen/?fref=ts"> tid.bergen</a><br/>
+            <span className="contactTitle">tlf:</span> +47 55 31 26 55 <br/>
           </p>
           <h3>
             Åpningstider
