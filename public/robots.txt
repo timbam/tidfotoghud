@@ -1,0 +1,3 @@
+Sitemap: http://tid-bergen.no/sitemap.xml
+User-agent: *
+Allow: /
