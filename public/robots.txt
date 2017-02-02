@@ -1,3 +1,3 @@
-Sitemap: http://tid-bergen.no/sitemap.xml
+Sitemap: http://www.tid-bergen.no/sitemap.xml
 User-agent: *
 Allow: /
