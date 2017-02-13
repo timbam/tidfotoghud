@@ -6676,6 +6676,9 @@ button.close {
 .navbar {
   margin-bottom: 0;
 }
+.navbar-brand {
+  font-weight: 300;
+}
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
@@ -6759,6 +6762,7 @@ button.close {
 }
 .componentBehandling h2 {
   display: inline;
+  cursor: pointer;
 }
 h3.behandling {
   display: inline;
@@ -6832,8 +6836,7 @@ body,
 }
 .backgroundPicture {
   position: relative;
-  min-height: 960px;
-  height: auto;
+  min-height: calc(100vh - 50px);
   background-image: url('/pictures/forest-2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -6851,7 +6854,6 @@ h3 {
   background-color: rgba(29, 29, 29, 0.9);
   width: 600px;
   min-height: 390.2px;
-  height: auto;
   margin: 15vh auto auto auto;
   font-size: 1.2em;
 }
