@@ -43,6 +43,7 @@ class Navbar extends React.Component {
             <li><Link activeStyle={{ color: '#fff' }} to="/"             onClick={this.onHideToggle}>Hjem</Link></li>
             <li><Link activeStyle={{ color: '#fff' }} to="Om"            onClick={this.onHideToggle}>Om Oss</Link></li>
             <li><Link activeStyle={{ color: '#fff' }} to="Behandlinger"  onClick={this.onHideToggle}>Behandlinger</Link></li>
+            <li><Link activeStyle={{ color: '#fff' }} to="BestillTime"   onClick={this.onHideToggle}>Bestill Time</Link></li>
             <li><Link activeStyle={{ color: '#fff' }} to="Kontakt"       onClick={this.onHideToggle}>Kontakt</Link></li>
           </ul>
         </div>

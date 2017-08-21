@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Navbar from './Navbar';
 
 export default class App extends React.Component {
@@ -12,4 +11,3 @@ export default class App extends React.Component {
     )
   }
 }
-// <img src="/pictures/background.jpg" alt="" className="bg"/>

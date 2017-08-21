@@ -6814,6 +6814,10 @@ h3.behandling {
 .days {
   font-weight: bold;
 }
+.bestillTime {
+  font-size: 1.3em;
+  margin-top: 10px;
+}
 a:link {
   text-decoration: none;
   color: #f5f5f5;

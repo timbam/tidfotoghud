@@ -2,7 +2,7 @@ import React from 'react';
 
 class Kontakt extends React.Component {
   render(){
-    return( 
+    return(
       <div className="backgroundPicture">
         <div className="textDiv kontakt">
           <h3>
@@ -10,10 +10,11 @@ class Kontakt extends React.Component {
           </h3>
           <p>
             <span className="contactTitle">Adresse:</span> Østre skostredet 10, Bergen <br/>
-            <span className="contactTitle">e-mail:</span> <a href="mailto:tid.bergen@gmail.com"> tid.bergen@gmail.com </a><br/>
-            <span className="contactTitle">Instagram:</span><a href="https://www.instagram.com/tid_bergen/"> tid_bergen </a><br/>
-            <span className="contactTitle">Facebook:</span><a href="https://www.facebook.com/TID.Bergen/?fref=ts"> tid.bergen</a><br/>
+            <span className="contactTitle">e-mail:</span>   <a target="_blank" href="mailto:tid.bergen@gmail.com"> tid.bergen@gmail.com </a><br/>
+            <span className="contactTitle">Instagram:</span><a target="_blank" href="https://www.instagram.com/tid_bergen/"> tid_bergen </a><br/>
+            <span className="contactTitle">Facebook:</span> <a target="_blank" href="https://www.facebook.com/TID.Bergen/?fref=ts"> tid.bergen</a><br/>
             <span className="contactTitle">tlf:</span> +47 55 31 26 55 <br/>
+            <div className="bestillTime"><a target="_blank" href="https://fotfarestveit.bestille.no/">Bestill time</a><br/></div>
           </p>
           <h3>
             Åpningstider
