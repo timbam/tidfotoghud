@@ -9,7 +9,7 @@ class BestillTime extends React.Component {
           Bestill Time
         </h3>
           <p>
-          <a href="https://fotfarestveit.bestille.no/">https://fotfarestveit.bestille.no/</a><br/>
+          <a target="_blank" href="https://fotfarestveit.bestille.no/">https://fotfarestveit.bestille.no/</a><br/>
           </p>
         </div>
       </div>
