@@ -26,7 +26,7 @@ class Navbar extends React.Component {
       'show': this.state.shown
     });
     return(
-    <nav className="navbar navbar-inverse">
+    <nav className="navbar navbar-inverse navbar-static-top">
       <div className="container-fluid">
         <div className="navbar-header">
           <button type="button" onClick={this.onToggleClick} className="navbar-toggle" data-toggle="collapse" data-target="#bs-navbar-collapse" aria-expanded="true" aria-controls="navbar">

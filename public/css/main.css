@@ -6734,6 +6734,15 @@ button.close {
   margin-top: 50px;
   margin-bottom: 25px;
 }
+.omOss .btn-link {
+  color: #f5f5f5;
+  font-size: 1.3em;
+}
+.omOss .btn-link:hover {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
 @media screen and (max-width: 450px) {
   .omOss {
     margin-top: 20px;
