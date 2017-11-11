@@ -39,6 +39,7 @@ class Om extends React.Component {
             <button className="btn-link" onClick={() => this.setState({ isOpen: true })}>Se bilder</button>
             {isOpen &&
                     <LightBox
+                        className="lightBox"
                         mainSrc={images[photoIndex]}
                         nextSrc={images[(photoIndex + 1) % images.length]}
                         prevSrc={images[(photoIndex + images.length - 1) % images.length]}
